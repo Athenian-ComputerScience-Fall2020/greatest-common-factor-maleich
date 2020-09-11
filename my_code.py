@@ -2,7 +2,7 @@
 #  
 
 def find_gcf(x,y):   # Do not change function name!
-        for i in range (x + 1, 0, -1):
+    for i in range (x + 1, 0, -1):
         if x % i == 0:
             if y % i == 0:
                 gcf = i
